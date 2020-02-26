@@ -1,0 +1,85 @@
+h1, h2 {
+  font-family: 'Lobster';
+}
+
+body {
+  background-color: rgb(255, 253, 221);
+  font-weight: 300; /* if you want the light version */
+  font-family: 'Signika';
+}
+
+.btn-blue {
+  padding: 14px 22px;
+  background-color: gold;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 3px;
+  font-family: 'Lobster';
+}
+
+.btn-blue:hover {
+  color: black;
+  opacity: 1;
+}
+
+
+.card {
+  padding: 30px;
+  background: white;
+  box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 15px auto;
+  width: 650px;
+  border-radius: 4px;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  padding: 6px;
+}
+
+ul {
+  padding: 0px;
+}
+
+img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  opacity: 0.8;
+  font-size: 2em;
+}
+
+.social-icons:hover {
+  opacity: 1;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
